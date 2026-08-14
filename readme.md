@@ -6,3 +6,7 @@ my devops learning journey
 -ssh
 -ufw
 -nginx 
+"" week2 
+-git
+-github
+-bash
