@@ -20,4 +20,6 @@ jobs:
       - name: Stop services
         if: always()
         run: docker compose down
+      - name: Show Docker version
+        run: docker --version
 
