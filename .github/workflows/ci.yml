@@ -14,11 +14,13 @@ jobs:
       - name: Ckeckout repository
         uses: actions/checkout@v4
       - name: Start services
+        working-directory: ./compose-microservices
         run: docker compose up -d --build
       - name: Run test
         run: docker compose exec -T backend npm test
       - name: Stop services
         if: always()
+        working-directory: ./compose-microservices
         run: docker compose down
       - name: Show Docker version
         run: docker --version
