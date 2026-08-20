@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ckeckout repository
+        uses: actions/checkout@v4
+      - name: Start services
+        run: docker compose up -d --build
+      - name: Run test
+        run: docker compose exec -T backend npm test
+      - name: Stop services
+        if: always()
+        run: docker compose down
+      - name: Show Docker version
+        run: docker --version
+
