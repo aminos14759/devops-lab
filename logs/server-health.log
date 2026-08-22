@@ -9726,3 +9726,135 @@ tcp   LISTEN 0      511             [::]:80            [::]:*
 tcp   LISTEN 0      2048            [::]:389           [::]:*          
 
 =======healthcheck : ok =========
+=== system information ====
+Hostname: medamine-VirtualBox
+user: medamine
+date:22 أوت, 2026 CET 01:40:01 م
+uptime: up 14 minutes
+
+=== resource usage ===
+cpu:
+%Cpu(s):  7.7 ut,  0.0 sy,  0.0 ni, 84.6 id,  0.0 wa,  0.0 hi,  7.7 si,  0.0 st
+ Ram:
+               total       utilisé      libre     partagé tamp/cache   disponible
+Mem:           1.9Gi       774Mi       145Mi        32Mi       1.0Gi       1.0Gi
+Échange:      2.6Gi          0B       2.6Gi
+disk:
+Sys. de fichiers Taille Utilisé Dispo Uti% Monté sur
+/dev/sda3           24G     23G  652M  98% /
+ ok 
+
+====services=====
+ssh:running
+nginx:running
+
+==== Listenning ports=====
+tcp   LISTEN 0      100          0.0.0.0:995        0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:993        0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:43371      0.0.0.0:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:143        0.0.0.0:*          
+tcp   LISTEN 0      128          0.0.0.0:22         0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:110        0.0.0.0:*          
+tcp   LISTEN 0      128        127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      511          0.0.0.0:80         0.0.0.0:*          
+tcp   LISTEN 0      2048         0.0.0.0:389        0.0.0.0:*          
+tcp   LISTEN 0      256                *:8080             *:*          
+tcp   LISTEN 0      100             [::]:995           [::]:*          
+tcp   LISTEN 0      100             [::]:993           [::]:*          
+tcp   LISTEN 0      128            [::1]:631           [::]:*          
+tcp   LISTEN 0      100             [::]:143           [::]:*          
+tcp   LISTEN 0      128             [::]:22            [::]:*          
+tcp   LISTEN 0      100             [::]:110           [::]:*          
+tcp   LISTEN 0      511             [::]:80            [::]:*          
+tcp   LISTEN 0      2048            [::]:389           [::]:*          
+
+=======healthcheck : ok =========
+=== system information ====
+Hostname: medamine-VirtualBox
+user: medamine
+date:22 أوت, 2026 CET 01:45:01 م
+uptime: up 19 minutes
+
+=== resource usage ===
+cpu:
+%Cpu(s): 10.0 ut, 10.0 sy,  0.0 ni, 30.0 id,  0.0 wa,  0.0 hi, 50.0 si,  0.0 st
+ Ram:
+               total       utilisé      libre     partagé tamp/cache   disponible
+Mem:           1.9Gi       775Mi       144Mi        32Mi       1.0Gi       1.0Gi
+Échange:      2.6Gi          0B       2.6Gi
+disk:
+Sys. de fichiers Taille Utilisé Dispo Uti% Monté sur
+/dev/sda3           24G     23G  652M  98% /
+ ok 
+
+====services=====
+ssh:running
+nginx:running
+
+==== Listenning ports=====
+tcp   LISTEN 0      100          0.0.0.0:995        0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:993        0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:43371      0.0.0.0:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:143        0.0.0.0:*          
+tcp   LISTEN 0      128          0.0.0.0:22         0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:110        0.0.0.0:*          
+tcp   LISTEN 0      128        127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      511          0.0.0.0:80         0.0.0.0:*          
+tcp   LISTEN 0      2048         0.0.0.0:389        0.0.0.0:*          
+tcp   LISTEN 0      256                *:8080             *:*          
+tcp   LISTEN 0      100             [::]:995           [::]:*          
+tcp   LISTEN 0      100             [::]:993           [::]:*          
+tcp   LISTEN 0      128            [::1]:631           [::]:*          
+tcp   LISTEN 0      100             [::]:143           [::]:*          
+tcp   LISTEN 0      128             [::]:22            [::]:*          
+tcp   LISTEN 0      100             [::]:110           [::]:*          
+tcp   LISTEN 0      511             [::]:80            [::]:*          
+tcp   LISTEN 0      2048            [::]:389           [::]:*          
+
+=======healthcheck : ok =========
+=== system information ====
+Hostname: medamine-VirtualBox
+user: medamine
+date:22 أوت, 2026 CET 01:50:01 م
+uptime: up 24 minutes
+
+=== resource usage ===
+cpu:
+%Cpu(s):  0.0 ut,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+ Ram:
+               total       utilisé      libre     partagé tamp/cache   disponible
+Mem:           1.9Gi       767Mi       151Mi        32Mi       1.0Gi       1.0Gi
+Échange:      2.6Gi          0B       2.6Gi
+disk:
+Sys. de fichiers Taille Utilisé Dispo Uti% Monté sur
+/dev/sda3           24G     23G  652M  98% /
+ ok 
+
+====services=====
+ssh:running
+nginx:running
+
+==== Listenning ports=====
+tcp   LISTEN 0      100          0.0.0.0:995        0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:993        0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:43371      0.0.0.0:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:143        0.0.0.0:*          
+tcp   LISTEN 0      128          0.0.0.0:22         0.0.0.0:*          
+tcp   LISTEN 0      100          0.0.0.0:110        0.0.0.0:*          
+tcp   LISTEN 0      128        127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      511          0.0.0.0:80         0.0.0.0:*          
+tcp   LISTEN 0      2048         0.0.0.0:389        0.0.0.0:*          
+tcp   LISTEN 0      256                *:8080             *:*          
+tcp   LISTEN 0      100             [::]:995           [::]:*          
+tcp   LISTEN 0      100             [::]:993           [::]:*          
+tcp   LISTEN 0      128            [::1]:631           [::]:*          
+tcp   LISTEN 0      100             [::]:143           [::]:*          
+tcp   LISTEN 0      128             [::]:22            [::]:*          
+tcp   LISTEN 0      100             [::]:110           [::]:*          
+tcp   LISTEN 0      511             [::]:80            [::]:*          
+tcp   LISTEN 0      2048            [::]:389           [::]:*          
+
+=======healthcheck : ok =========

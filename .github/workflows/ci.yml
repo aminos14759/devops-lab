@@ -20,7 +20,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Start services
         working-directory: ./compose-microservices
-        run: docker compose up -d --build
+        run: |
+          docker compose up -d --build
+          echo "=== CONTAINERS==="
+          docker compose ps
+          echo " === POSTGRESS LOGS =="
+          docker compose logs postgres
       - name: Run test
         working-directory: ./compose-microservices
         run: docker compose exec -T backend npm test
