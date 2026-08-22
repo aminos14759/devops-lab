@@ -9,6 +9,6 @@ expect(response.body.status).toBe("UP");
 test("GET /db should connect to postgreSQL", async () => {
 const response = await request(app).get("/db");
 expect(response.statusCode).toBe(200);
-expect(response.body.database).toBe=("connected");
+expect(response.body.database).toBe("connected");
 });
 });
