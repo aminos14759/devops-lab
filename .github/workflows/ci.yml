@@ -9,7 +9,12 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    env:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: devops
+      DB_NAME: devopsdb
+      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
     steps:
       - name: Ckeckout repository
         uses: actions/checkout@v4
